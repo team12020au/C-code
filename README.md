@@ -4,7 +4,7 @@
 For at producere Mosquitto MQTT programmer i C med et udviklingsprogram som fx. Eclipse skal der hentes og bygges et Mosquitto bibliotek <br>
 
 Biblioteket hentes ned lokalt i en mappe vha: <br>
-**git clone https://github.com/eclipse/mosquitto**
+**$ git clone https://github.com/eclipse/mosquitto**
 
 For at få biblioteket til at virke på CentOS skal der hentes et stykke software der hedder **openssl-devel** <br>
 **$ yum install openssl-devel**
