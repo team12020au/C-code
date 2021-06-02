@@ -29,6 +29,6 @@ Indtast "mosquitto" i Libraries og stien hvor libmosquitto.so filen befinder sig
 Filen befinder sig i den clodnede mappe fra github under **mosquitto/lib**  <br>
 
 
-#Mosquitto på Beaglebone eller Pocket Beagle
-##Mosquitto på Beaglebone eller Pocket Beagle
-###Mosquitto på Beaglebone eller Pocket Beagle
+# Mosquitto på Beaglebone eller Pocket Beagle
+## Mosquitto på Beaglebone eller Pocket Beagle
+### Mosquitto på Beaglebone eller Pocket Beagle
