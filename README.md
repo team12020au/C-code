@@ -33,10 +33,10 @@ For at udvikle Mosquitto MQTT programmer der kan compileres / afvikles på Beagl
 Log ind på din Beaglebone<br>
 I kommandolinjen udfør flg kommandoer:<br>
 
-** $ sudo apt-get update<br>
-$ sudo apt-get install mosquitto<br>
-$ sudo apt-get install mosquitto-dev<br>
-$ sudo apt-get install libmosquitto-dev	**<br>
+**$ sudo apt-get update**<br>
+**$ sudo apt-get install mosquitto**<br>
+**$ sudo apt-get install mosquitto-dev**<br>
+**$ sudo apt-get install libmosquitto-dev**<br>
 
 Dernæst skal mosquitto.h kopieres over på Beaglebone fra det tidligere clonede mosquitto bibliotek fra github<br>
 Mosquitto.h skal includeres i toppen af et C-projekt<br>
