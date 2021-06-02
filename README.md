@@ -15,7 +15,8 @@ Mens man opholder sig i mappen med det nye clonede bibliotek bygges koden med fl
 Der er en masse filer i denne mappe der er hentet ned.  <br>
 Biblioteket vi er specielt interesseret i ligger i /lib og hedder libmosquitto.so.1 <br>
 Der oprettes et symbolsk link inde i mappen hvor libmosquitto.so ligger.  <br>
-Filen hedder libmosquitto.so.1 men kan kun opfattes i Eclipes, hvis der bliver oprettet et symbolsk link, så kommer filen til at fremstå som libmosquitto.so  <br>
+Filen hedder libmosquitto.so.1 men kan kun opfattes i Eclipes, hvis der bliver oprettet et symbolsk link,  <br>
+så kommer filen til at fremstå som libmosquitto.so  <br>
 Herefter melder Eclipse ikke fejl på bibliotekets syntax <br>
 Opret det symbolske link vha: <br>
 **$ ln -s libmosquitto.so.1 libmosquitto.so** <br>
