@@ -20,4 +20,10 @@ Herefter melder Eclipse ikke fejl på bibliotekets syntax
 Opret det symbolske link vha: <br>
 **$ ln -s libmosquitto.so.1 libmosquitto.so**
 
-![image](https://user-images.githubusercontent.com/84921655/120499053-08943580-c3c0-11eb-92e4-477f0fc34506.png)
+
+Det nyoprettede bibliotek linkes inde i Eclipse til projektet.
+Projectproperties /  C/C++ build / setting/ GCC C linker / libraries.
+Indtast "mosquitto" i Libraries og stien hvor libmosquitto.so filen befinder sig i. 
+Filen befinder sig i den clodnede mappe fra github under mosquitto/lib
+
+
