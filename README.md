@@ -1,6 +1,6 @@
 # C-code
 
-
+## Mosquitto i C og med fx Eclipse som udviklingsmiljø
 For at producere Mosquitto MQTT programmer i C og med et udviklingsprogram som fx. Eclipse skal der hentes og bygges et Mosquitto bibliotek <br>
 
 Biblioteket hentes ned lokalt i en mappe vha: <br>
@@ -28,7 +28,5 @@ Projectproperties /  C/C++ build / setting/ GCC C linker / libraries. <br>
 Indtast "mosquitto" i Libraries og stien hvor libmosquitto.so filen befinder sig i.  <br>
 Filen befinder sig i den clodnede mappe fra github under **mosquitto/lib**  <br>
 
-
-# Mosquitto på Beaglebone eller Pocket Beagle
 ## Mosquitto på Beaglebone eller Pocket Beagle
-### Mosquitto på Beaglebone eller Pocket Beagle
+
