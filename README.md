@@ -29,7 +29,7 @@ Gå ind i Projectproperties /  C/C++ build / settings/ GCC C linker / libraries.
 Indtast "mosquitto" i Libraries og stien hvor libmosquitto.so filen befinder sig i.  <br>
 Filen befinder sig i den clodnede mappe fra github under **mosquitto/lib**  <br>
 
-## Mosquitto på Beaglebone eller Pocket Beagle<br>
+## Mosquitto MQTT på BeagleBone eller Pocket Beagle<br>
 For at udvikle Mosquitto MQTT programmer der kan compileres / afvikles på Beaglebone skal der ligeledes installeres nogle biblioteker<br>
 Log ind på din Beaglebone<br>
 I kommandolinjen udfør flg kommandoer:<br>
