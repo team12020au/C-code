@@ -14,7 +14,7 @@ Mens man opholder sig i mappen med det nye clonede bibliotek bygges koden med fl
 **make all WITH_CJSON=no WITH_DOCS=no**
 
 Der er en masse filer i denne mappe der er hentet ned.  <br>
-Biblioteket der er speciel interesseret i ligger i /lib og hedder libmosquitto.so.1 <br>
+Biblioteket der er speciel interesseret i ses i /lib og hedder libmosquitto.so.1 <br>
 For at få Eclipse til at tage imod dette bibliotet skal der oprettes et symbolsk link <br>
 Der oprettes et symbolsk link inde i mappen hvor libmosquitto.so ligger.  <br>
 Filen hedder libmosquitto.so.1 men kan kun opfattes i Eclipes, hvis der bliver oprettet et symbolsk link,  <br>
@@ -26,7 +26,7 @@ Opret det symbolske link vha: <br>
 
 Det nyoprettede bibliotek linkes inde i Eclipse til projektet. <br>
 Gå ind i Projectproperties /  C/C++ build / settings/ GCC C linker / libraries. <br>
-Indtast "mosquitto" i Libraries og stien hvor libmosquitto.so filen befinder sig i.  <br>
+Indtast "mosquitto" i Libraries og stien, hvor libmosquitto.so filen befinder sig i.  <br>
 Filen befinder sig i den clodnede mappe fra github under **mosquitto/lib**  <br>
 
 ## Mosquitto MQTT på BeagleBone eller Pocket Beagle<br>
@@ -46,7 +46,7 @@ H-filen findes i mappen fra Github under:<br>
 
 Læg evt Mosquitto.h i home mappen på CentOS, åben et konsolvindue i home mappen og kopier Mosquitto.h på BeagleBone vha Secure Copy <br>
 **$ scp mosquitto.h debian@beaglebone:/home/debian** <br>
-Med denne kommando bliver Mosquitto kopieret fra home mappe i CentOS over på home mappen på BeagleBone<br>
+Med denne kommando bliver Mosquitto kopieret fra home mappe i CentOS over i home mappen på BeagleBone<br>
 
 Der skal selvfølgelig også ligge en C-fil på BeagleBone for at bygge et projekt, denne kan evt også kopieres fra CentOS vha Secure Copy<br>
 
